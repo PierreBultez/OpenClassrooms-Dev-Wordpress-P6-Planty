@@ -1,9 +1,16 @@
 .hero-accueil {
     padding: 100px 30px !important;
+    border-bottom-right-radius: 50% 7%;
+    border-bottom-left-radius: 50% 7%;
 }
 
 .hero-accueil h1 {
     text-transform: uppercase;
+}
+
+.cta-home {
+    border-bottom-right-radius: 50% 4%;
+    border-bottom-left-radius: 50% 4%;
 }
 
 .cta-home h2 {
