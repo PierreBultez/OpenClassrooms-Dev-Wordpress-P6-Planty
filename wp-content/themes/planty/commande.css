@@ -1,0 +1,38 @@
+/* Masquer les flèches d'incrémentation sélection de quantité */
+
+/* Pour Chrome, Edge, Safari */
+input[type="number"]::-webkit-inner-spin-button,
+input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+}
+
+/* Pour Firefox */
+input[type="number"] {
+    -moz-appearance: textfield;
+}
+
+/* Pour IE11 */
+input[type="number"]::-ms-clear,
+input[type="number"]::-ms-reveal {
+    display: none;
+}
+
+input[type="number"] {
+    width: 100px; /* Largeur de la zone de saisie */
+    padding: 5px; /* Espacement intérieur pour le confort visuel */
+    border: 1px solid #ccc; /* Bordure discrète */
+    border-radius: 4px; /* Coins arrondis */
+}
+
+.order-title {
+    text-transform: uppercase;
+}
+
+hr {
+    height: 1px !important; /* Épaisseur de la ligne */
+    width: 860px;
+    border: none !important; /* Assurez-vous qu'il n'y a pas de bordure par défaut */
+    background-color: #ffffff; /* Couleur de la ligne */
+    margin: 20px auto; /* Espacement vertical et centrage horizontal */
+}
