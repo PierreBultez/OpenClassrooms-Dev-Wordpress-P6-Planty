@@ -1,0 +1,30 @@
+.meet-us-headline {
+    border-bottom-right-radius: 50% 20%;
+    border-bottom-left-radius: 50% 20%;
+    padding: 200px 0 90px 0 !important;
+}
+
+.meet-us-headline-text {
+    width: 100%;
+    max-width: 670px;
+}
+
+.meet-us-flower {
+    position: absolute;
+    top: 4%; /* Ajustez en fonction de la position désirée */
+    left: 8%; /* Ajustez en fonction de la position désirée */
+    z-index: 10; /* Facultatif : si vous voulez qu'elle apparaisse au-dessus des autres éléments */
+}
+
+.team {
+    gap: 150px;
+}
+
+.team-card {
+    margin-bottom: 0 !important;
+    padding: 0 0 3rem;
+}
+
+.meet-us-contact {
+    padding: 70px 0 0 0 !important;
+}
