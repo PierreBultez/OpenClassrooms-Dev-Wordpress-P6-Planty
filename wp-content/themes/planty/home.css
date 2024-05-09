@@ -1,0 +1,74 @@
+.hero-accueil {
+    padding: 100px 30px !important;
+    border-bottom-right-radius: 50% 7%;
+    border-bottom-left-radius: 50% 7%;
+}
+
+.hero-accueil h1 {
+    text-transform: uppercase;
+}
+
+.cta-home {
+    border-bottom-right-radius: 50% 4%;
+    border-bottom-left-radius: 50% 4%;
+}
+
+.cta-home h2 {
+    text-transform: uppercase;
+}
+
+.testimonial-title {
+    text-transform: uppercase;
+}
+
+.parfums-accueil {
+    display: flex !important;
+    justify-content: center !important;
+    align-items: center !important;
+    gap: 30px;
+}
+
+.parfums-accueil p {
+    text-transform: uppercase;
+    margin-block-start: 0 !important;
+    margin-block-end: 0 !important;
+    word-break: keep-all;
+}
+
+.parfums-accueil .fraise {
+    margin-bottom: 0 !important;
+}
+
+.parfums-accueil .pamplemousse {
+    margin-bottom: 0 !important;
+}
+
+.parfums-accueil .framboise {
+    margin-bottom: 0 !important;
+}
+
+.parfums-accueil .citron {
+    margin-bottom: 0 !important;
+}
+
+.testimonial-name {
+    margin-bottom: 0px !important;
+}
+
+.testimonial img {
+    width: 8rem !important;
+}
+
+.testimonial {
+    max-width: 21.875rem !important;
+    grid-template-columns: auto !important;
+    margin-bottom: 0px !important;
+}
+
+.testimonial-text {
+    padding: 0;
+}
+
+.wp-block-media-text .wp-block-media-text__content {
+    padding: 0 0 0 8%;
+}

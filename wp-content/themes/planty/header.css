@@ -1,0 +1,21 @@
+#menu-item-25 {
+	background-color: #DC9F96;
+	padding: 30px 60px;
+}
+
+#menu-item-25 a {
+	color: #ffffff;
+    padding: 0;
+}
+
+.header-navigation .menu li {
+    padding: 0 60px;
+}
+
+.main-navigation .primary-menu-container > ul > li.menu-item > a {
+    padding: 0 !important;
+}
+
+#menu-item-27 {
+    padding: 0 60px 0 0;
+}
