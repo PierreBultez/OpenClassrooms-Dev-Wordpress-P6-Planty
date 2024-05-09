@@ -31,14 +31,14 @@ input[type="number"] {
 
 hr {
     height: 1px !important; /* Épaisseur de la ligne */
-    width: 600px;
+    width: 100%;
     border: none !important; /* Assurez-vous qu'il n'y a pas de bordure par défaut */
     background-color: #ffffff; /* Couleur de la ligne */
     margin: 20px auto; /* Espacement vertical et centrage horizontal */
 }
 
 .vertical-line {
-    height: 450px; /* Hauteur du séparateur */
+    height: 350px; /* Hauteur du séparateur */
     width: 1px; /* Largeur du séparateur */
     background-color: #ffffff; /* Couleur du séparateur */
     margin: auto; /* Espacement horizontal autour du séparateur */
@@ -73,8 +73,10 @@ hr {
     text-transform: uppercase;
     text-align: center; /* alignement du texte */
     white-space: nowrap;
+    line-height: 1.2;
 }
 
 .text-overlay p {
     margin-bottom: 0 !important;
+    line-height: 0;
 }
