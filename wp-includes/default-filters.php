@@ -753,7 +753,12 @@ add_action( 'before_delete_post', '_wp_before_delete_font_face', 10, 2 );
 add_action( 'init', '_wp_register_default_font_collections' );
 
 // Add ignoredHookedBlocks metadata attribute to the template and template part post types.
+<<<<<<< HEAD
 add_filter( 'rest_pre_insert_wp_template', 'inject_ignored_hooked_blocks_metadata_attributes', 10, 2 );
 add_filter( 'rest_pre_insert_wp_template_part', 'inject_ignored_hooked_blocks_metadata_attributes', 10, 2 );
+=======
+add_filter( 'rest_pre_insert_wp_template', 'inject_ignored_hooked_blocks_metadata_attributes' );
+add_filter( 'rest_pre_insert_wp_template_part', 'inject_ignored_hooked_blocks_metadata_attributes' );
+>>>>>>> 3e-depot/master
 
 unset( $filter, $action );
