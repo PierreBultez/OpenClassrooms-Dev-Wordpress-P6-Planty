@@ -49,8 +49,6 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 					printf(
 						/* translators: 1: WordPress version number, 2: Plural number of bugs. */
 						_n(
-<<<<<<< HEAD
-=======
 							'<strong>Version %1$s</strong> addressed %2$s bug.',
 							'<strong>Version %1$s</strong> addressed %2$s bugs.',
 							10
@@ -76,7 +74,6 @@ require_once ABSPATH . 'wp-admin/admin-header.php';
 					printf(
 						/* translators: 1: WordPress version number, 2: Plural number of bugs. */
 						_n(
->>>>>>> 3e-depot/master
 							'<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bug.',
 							'<strong>Version %1$s</strong> addressed a security issue and fixed %2$s bugs.',
 							12

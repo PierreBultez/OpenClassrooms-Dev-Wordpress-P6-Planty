@@ -16,11 +16,7 @@
  *
  * @global string $wp_version
  */
-<<<<<<< HEAD
-$wp_version = '6.5.2';
-=======
 $wp_version = '6.5.3';
->>>>>>> 3e-depot/master
 
 /**
  * Holds the WordPress DB revision, increments when changes are made to the WordPress DB schema.
@@ -49,8 +45,5 @@ $required_php_version = '7.0.0';
  * @global string $required_mysql_version
  */
 $required_mysql_version = '5.5.5';
-<<<<<<< HEAD
-=======
 
 $wp_local_package = 'fr_FR';
->>>>>>> 3e-depot/master

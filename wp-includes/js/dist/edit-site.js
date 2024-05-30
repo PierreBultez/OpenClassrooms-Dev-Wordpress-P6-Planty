@@ -17919,10 +17919,7 @@ function useResolveEditedEntityAndContext({
   const {
     hasLoadedAllDependencies,
     homepageId,
-<<<<<<< HEAD
-=======
     postsPageId,
->>>>>>> 3e-depot/master
     url,
     frontPageTemplateId
   } = (0,external_wp_data_namespaceObject.useSelect)(select => {
@@ -17936,18 +17933,6 @@ function useResolveEditedEntityAndContext({
     const templates = getEntityRecords('postType', constants_TEMPLATE_POST_TYPE, {
       per_page: -1
     });
-<<<<<<< HEAD
-    let _frontPateTemplateId;
-    if (templates) {
-      const frontPageTemplate = templates.find(t => t.slug === 'front-page');
-      _frontPateTemplateId = frontPageTemplate ? frontPageTemplate.id : false;
-    }
-    return {
-      hasLoadedAllDependencies: !!base && !!siteData,
-      homepageId: siteData?.show_on_front === 'page' && ['number', 'string'].includes(typeof siteData.page_on_front) ? siteData.page_on_front.toString() : null,
-      url: base?.home,
-      frontPageTemplateId: _frontPateTemplateId
-=======
     const _homepageId = siteData?.show_on_front === 'page' && ['number', 'string'].includes(typeof siteData.page_on_front) && !!+siteData.page_on_front // We also need to check if it's not zero(`0`).
     ? siteData.page_on_front.toString() : null;
     const _postsPageId = siteData?.show_on_front === 'page' && ['number', 'string'].includes(typeof siteData.page_for_posts) ? siteData.page_for_posts.toString() : null;
@@ -17962,7 +17947,6 @@ function useResolveEditedEntityAndContext({
       postsPageId: _postsPageId,
       url: base?.home,
       frontPageTemplateId: _frontPageTemplateId
->>>>>>> 3e-depot/master
     };
   }, []);
 
@@ -18000,13 +17984,10 @@ function useResolveEditedEntityAndContext({
       if (!editedEntity) {
         return undefined;
       }
-<<<<<<< HEAD
-=======
       // Check if the current page is the posts page.
       if (postTypeToResolve === 'page' && postsPageId === postIdToResolve) {
         return __experimentalGetTemplateForLink(editedEntity.link)?.id;
       }
->>>>>>> 3e-depot/master
       // First see if the post/page has an assigned template and fetch it.
       const currentTemplateSlug = editedEntity.template;
       if (currentTemplateSlug) {
@@ -18058,11 +18039,7 @@ function useResolveEditedEntityAndContext({
       const template = __experimentalGetTemplateForLink(url);
       return template?.id;
     }
-<<<<<<< HEAD
-  }, [homepageId, hasLoadedAllDependencies, url, postId, postType, path, frontPageTemplateId]);
-=======
   }, [homepageId, postsPageId, hasLoadedAllDependencies, url, postId, postType, path, frontPageTemplateId]);
->>>>>>> 3e-depot/master
   const context = (0,external_wp_element_namespaceObject.useMemo)(() => {
     if (postTypesWithoutParentTemplate.includes(postType)) {
       return {};
@@ -27762,13 +27739,7 @@ function InstalledFonts() {
     onClick: () => {
       handleSetLibraryFontSelected(font);
     }
-<<<<<<< HEAD
-  }))), (0,external_React_.createElement)(external_wp_components_namespaceObject.__experimentalSpacer, {
-    margin: 16
-  })), (0,external_React_.createElement)(external_wp_components_namespaceObject.__experimentalNavigatorScreen, {
-=======
   })))), (0,external_React_.createElement)(external_wp_components_namespaceObject.__experimentalNavigatorScreen, {
->>>>>>> 3e-depot/master
     path: "/fontFamily"
   }, (0,external_React_.createElement)(ConfirmDeleteDialog, {
     font: libraryFontSelected,
