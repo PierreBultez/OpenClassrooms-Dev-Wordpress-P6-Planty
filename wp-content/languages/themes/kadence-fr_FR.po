@@ -2,7 +2,7 @@
 # This file is distributed under the same license as the Themes - Kadence package.
 msgid ""
 msgstr ""
-"PO-Revision-Date: 2024-04-17 15:30:41+0000\n"
+"PO-Revision-Date: 2024-06-01 22:24:23+0000\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
@@ -445,7 +445,7 @@ msgstr "Arrière-plan du contenu de l’évènement"
 
 #: inc/customizer/options/tec-event-layout-options.php:741
 msgid "Event Background"
-msgstr "Arrière-plan Évènement"
+msgstr "Arrière-plan de l’évènement"
 
 #: inc/customizer/options/tec-event-layout-options.php:571
 msgid "Event Default Sidebar"
@@ -479,11 +479,11 @@ msgstr "Police du titre de l’évènement"
 
 #: inc/customizer/options/tec-event-layout-options.php:150
 msgid "Event Title Align"
-msgstr "Alignement Titre évènement"
+msgstr "Alignement du titre de l’évènement"
 
 #: inc/customizer/options/tec-event-layout-options.php:74
 msgid "Event Title Layout"
-msgstr "Mise en page Titre évènement"
+msgstr "Mise en page du titre de l’évènement"
 
 #: inc/customizer/options/tec-event-layout-options.php:68
 msgid "Show Event Title?"
@@ -1177,7 +1177,7 @@ msgid "Home"
 msgstr "Accueil"
 
 #. translators: %s: stylesheet handle
-#: inc/components/styles/component.php:4032
+#: inc/components/styles/component.php:4041
 msgid "Invalid theme stylesheet handle: %s"
 msgstr "Descripteur de feuille de style de thème non valide : %s"
 
@@ -1449,7 +1449,7 @@ msgstr "Haut du pied de page"
 #: inc/customizer/class-theme-customizer.php:879 assets/js/admin/dashboard.js:1
 #: inc/dashboard/react/src/customizer.js:47
 msgid "Footer Layout"
-msgstr "Mise en page Pied de page"
+msgstr "Mise en page du pied de page"
 
 #: inc/customizer/class-theme-customizer.php:854
 msgid "Header Search"
@@ -1905,7 +1905,7 @@ msgstr "Alignement du titre du quiz"
 #: inc/customizer/options/learndash-quiz-layout-options.php:74
 #: inc/customizer/options/lifter-quiz-layout-options.php:33
 msgid "Quiz Title Layout"
-msgstr "Mise en page Titre quiz"
+msgstr "Mise en page du titre du quiz"
 
 #: inc/customizer/options/learndash-quiz-layout-options.php:68
 #: inc/customizer/options/lifter-quiz-layout-options.php:27
@@ -4018,7 +4018,7 @@ msgstr "Arrière-plan du contenu du produit"
 
 #: inc/customizer/options/product-layout-options.php:781
 msgid "Product Background"
-msgstr "Arrière-plan Produit"
+msgstr "Arrière-plan du produit"
 
 #: inc/customizer/options/custom-layout-options.php:1589
 #: inc/customizer/options/footer-bottom-options.php:122
@@ -4071,7 +4071,7 @@ msgstr "Police des produit dans la catégorie de contenu"
 #: inc/customizer/options/product-layout-options.php:479
 #: inc/customizer/options/product-layout-options.php:520
 msgid "Product Layout"
-msgstr "Mise en page Produit"
+msgstr "Mise en page du produit"
 
 #: inc/customizer/options/product-layout-options.php:382
 msgid "Product Above Title Background"
@@ -5487,7 +5487,7 @@ msgstr "Espacement vertical des éléments"
 #: inc/customizer/options/header-social-options.php:358
 #: inc/customizer/options/topic-layout-options.php:449
 #: assets/js/admin/customizer.js:2
-#: inc/customizer/react/src/typography/typography-component.js:752
+#: inc/customizer/react/src/typography/typography-component.js:758
 msgid "Font"
 msgstr "Police"
 
@@ -6420,15 +6420,10 @@ msgstr "Afficher le titre"
 #: inc/customizer/options/lifter-course-layout-options.php:558
 #: inc/customizer/options/lifter-lesson-layout-options.php:558
 #: inc/customizer/options/lifter-member-layout-options.php:233
-#: inc/customizer/options/lifter-quiz-layout-options.php:233
-#: inc/customizer/options/page-layout-options.php:679
-#: inc/customizer/options/post-layout-options.php:740
-#: inc/customizer/options/product-layout-options.php:594
 #: inc/customizer/options/tec-event-layout-options.php:611
 #: inc/customizer/options/topic-layout-options.php:790
 #: inc/customizer/options/tutor-course-layout-options.php:504
 #: inc/meta/class-theme-meta.php:270 inc/meta/class-theme-meta.php:413
-#: assets/js/admin/meta.js:1 inc/meta/react/src/layout.js:341
 msgid "Content Vertical Padding"
 msgstr "Marge interne verticale du contenu"
 

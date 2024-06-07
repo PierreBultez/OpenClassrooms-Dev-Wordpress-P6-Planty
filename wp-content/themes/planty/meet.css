@@ -9,6 +9,10 @@
     max-width: 670px;
 }
 
+.team-bloc {
+    position: relative;
+}
+
 .meet-us-flower {
     position: absolute;
     top: 4%; /* Ajustez en fonction de la position désirée */
@@ -25,6 +29,82 @@
     padding: 0 0 3rem;
 }
 
+.meet-us-leef {
+    position: absolute;
+    bottom: 0; /* Ajustez en fonction de la position désirée */
+    right: 3%; /* Ajustez en fonction de la position désirée */
+    z-index: 10; /* Facultatif : si vous voulez qu'elle apparaisse au-dessus des autres éléments */
+}
+
 .meet-us-contact {
     padding: 70px 0 0 0 !important;
+    position: relative;
+}
+
+#contact-form {
+    max-width: 380px !important;
+}
+
+.center {
+    display: block;
+    margin: 0 auto; /* Centre le bouton horizontalement */
+}
+
+.center label {
+    display: block;
+    margin:22px auto 13px auto; /* Centre le bouton horizontalement */
+    font-weight: normal;
+    color: #000;
+}
+
+.center input[type="text"], input[type="email"] {
+    display: block;
+    margin: 0 auto; /* Centre le bouton horizontalement */
+    box-sizing: border-box;
+    width: 380px;
+    height: 71px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 14px 0px #0000000A;
+}
+
+.center textarea {
+    box-sizing: border-box;
+    display: block;
+    margin: 0 auto 24px auto; /* Centre le bouton horizontalement */
+    width: 380px;
+    height: 237px;
+    padding: 10px;
+    border: none;
+    border-radius: 5px;
+    box-shadow: 0px 4px 14px 0px #0000000A;
+    z-index: 1;
+    position: relative;
+}
+
+button {
+    display: block;
+    width: 200px;
+    height: 55px;
+    padding: 15px;
+    font-size: 1.2em;
+    color: #fff;
+    background-color: #E0B9B4;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin: 0 auto; /* Centre le bouton horizontalement */
+}
+
+button:hover {
+    background-color: #e2aaa2;
+}
+
+.meet-us-flower-2 {
+    position: absolute;
+    bottom: 50%;
+    left: 50%;
+    transform: translateX(-50%) translateX(-185px) translateY(-50%) translateY(360px);
+    z-index: 0; /* Facultatif : si vous voulez qu'elle apparaisse au-dessus des autres éléments */
 }
