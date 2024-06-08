@@ -1,5 +1,7 @@
 # P6-Planty
 
+# J'ai souhaité réaliser ce projet sans aucune extension Wordpress.
+
 Personnalisez un thème WordPress pour une startup avec HTML, CSS et PHP
 
 Vous êtes intégrateur WordPress dans une agence web, et êtes en charge du développement du site vitrine de Planty, une jeune marque de boissons énergisantes à base de plantes.
