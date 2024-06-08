@@ -1,7 +1,8 @@
 .meet-us-headline {
     border-bottom-right-radius: 50% 20%;
     border-bottom-left-radius: 50% 20%;
-    padding: 200px 0 90px 0 !important;
+    padding: 180px 0 60px 0 !important;
+    margin-bottom: 70px !important;
 }
 
 .meet-us-headline-text {

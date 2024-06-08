@@ -23,3 +23,7 @@ what you've learned with others.
 @import 'home.css';
 @import 'meet.css';
 @import 'commande.css';
+
+.site-container {
+    padding: 0 !important;
+}

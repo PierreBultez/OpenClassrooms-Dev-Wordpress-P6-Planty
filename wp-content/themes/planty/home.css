@@ -1,11 +1,16 @@
 .hero-accueil {
-    padding: 100px 30px !important;
+    padding: 100px 0 !important;
+    margin-bottom: 70px !important;
     border-bottom-right-radius: 50% 7%;
     border-bottom-left-radius: 50% 7%;
 }
 
 .hero-accueil h1 {
     text-transform: uppercase;
+}
+
+.home-paragraph {
+    margin-top: 30px !important;
 }
 
 .cta-home {
@@ -25,7 +30,7 @@
     display: flex !important;
     justify-content: center !important;
     align-items: center !important;
-    gap: 30px;
+    gap: 40px;
 }
 
 .parfums-accueil p {
@@ -49,6 +54,14 @@
 
 .parfums-accueil .citron {
     margin-bottom: 0 !important;
+}
+
+.testimonial-bloc {
+    margin-left: auto !important;
+    margin-right: auto !important;
+    width: 1440px !important;
+    max-width: 100% !important;
+    justify-content: space-evenly !important;
 }
 
 .testimonial-name {
