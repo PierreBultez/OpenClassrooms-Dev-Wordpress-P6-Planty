@@ -99,7 +99,7 @@ button {
 }
 
 button:hover {
-    background-color: #e2aaa2;
+    background-color: #C02E44;
 }
 
 .meet-us-flower-2 {
@@ -108,4 +108,35 @@ button:hover {
     left: 50%;
     transform: translateX(-50%) translateX(-185px) translateY(-50%) translateY(360px);
     z-index: 0; /* Facultatif : si vous voulez qu'elle apparaisse au-dessus des autres éléments */
+}
+
+@media (min-width: 320px) and (max-width: 768px) {
+
+    .meet-us-headline {
+        border-bottom-right-radius: 50% 5%;
+        border-bottom-left-radius: 50% 5%;
+    }
+
+    .meet-us-flower {
+        top: 0%; /* Ajustez en fonction de la position désirée */
+        left: 0%; /* Ajustez en fonction de la position désirée */
+        width: 40%;
+    }
+
+    .team {
+        flex-direction: column;
+        gap: 20px;
+    }
+
+    .team-card {
+        padding: 0;
+    }
+
+    .meet-us-leef {
+        width: 30%;
+    }
+
+    .meet-us-flower-2 {
+        width: 30%;
+    }
 }

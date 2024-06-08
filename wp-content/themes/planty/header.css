@@ -3,6 +3,10 @@
 	padding: 30px 60px;
 }
 
+#menu-item-25:hover {
+	background-color: #C02E44;
+}
+
 #menu-item-25 a {
 	color: #ffffff;
     padding: 0;
